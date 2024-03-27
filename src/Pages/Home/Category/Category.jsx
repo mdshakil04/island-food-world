@@ -23,16 +23,40 @@ const Category = () => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="mySwiper mb-4"
+        className="mySwiper mb-8"
       >
-        <SwiperSlide><img src={slide1} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={slide2} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={slide3} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={slide4} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={slide5} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={slide1} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={slide2} alt="" /></SwiperSlide>
-        <SwiperSlide><img src={slide3} alt="" /></SwiperSlide>
+        <SwiperSlide>
+            <img src={slide1} alt="" />
+            <h3 className=' text-2xl uppercase text-center -mt-16 text-white '>Salad</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={slide2} alt="" />
+            <h3 className=' text-2xl uppercase text-center -mt-16 text-white '>Pizzas</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={slide3} alt="" />
+            <h3 className=' text-2xl uppercase text-center -mt-16 text-white '>Soup</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={slide4} alt="" />
+            <h3 className=' text-2xl uppercase text-center -mt-16 text-white '>Desert</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={slide5} alt="" />
+            <h3 className=' text-2xl uppercase text-center -mt-16 text-white '>Pizzas</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={slide1} alt="" />
+            <h3 className=' text-2xl uppercase text-center -mt-16 text-white '>Salad</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={slide2} alt="" />
+            <h3 className=' text-2xl uppercase text-center -mt-16 text-white '>Desert</h3>
+        </SwiperSlide>
+        <SwiperSlide>
+            <img src={slide3} alt="" />
+            <h3 className=' text-2xl uppercase text-center -mt-16 text-white '>Soup</h3>
+        </SwiperSlide>
       </Swiper>
     );
 };

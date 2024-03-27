@@ -10,7 +10,7 @@ import banner5 from '../../../assets/home/05.png';
 import banner6 from '../../../assets/home/06.png';
 const Banner = () => {
     return (
-        <Carousel>
+        <Carousel autoPlay>
                 <div>
                     <img src={banner1} />
                 </div>
@@ -29,7 +29,7 @@ const Banner = () => {
                 <div>
                     <img src={banner6} />
                 </div>
-            </Carousel>
+        </Carousel>
     );
 };
 

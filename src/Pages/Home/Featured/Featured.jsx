@@ -6,13 +6,13 @@ import './Featured.css'
 
 const Featured = () => {
   return (
-    <div className=" featured-item  text-white">
-      <div>
+    <div className=" featured-item  bg-fixed text-white">
+      <div className=" bg-slate-700 bg-opacity-60">
         <SectionTitle
           subHeading={"Check it out"}
           heading={"From Our Menu"}
         ></SectionTitle>
-        <div className=" mb-4">
+        <div className=" mb-4 ">
           <div className="hero">
             <div className="hero-content flex-col lg:flex-row">
               <img
@@ -27,7 +27,7 @@ const Featured = () => {
                   assumenda excepturi exercitationem quasi. In deleniti eaque
                   aut repudiandae et a id nisi.
                 </p>
-                <button className="btn bg-transparent uppercase text-slate-100300 border-b-white border-b-4 hover:bg-[#1F2937] text-white">Read more</button>
+                <button className="btn bg-transparent uppercase text-slate-100300 border-b-white border-b-4 hover:bg-[#1F2937] text-white">Order Now</button>
               </div>
             </div>
           </div>

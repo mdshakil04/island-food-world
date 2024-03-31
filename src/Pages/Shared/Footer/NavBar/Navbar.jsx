@@ -1,13 +1,14 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const navOptions = <>
-        <li>
-            <a>Item 1</a>
+    <li>
+            <Link to={'/'}>Home</Link>
         </li>
         <li>
-            <a>Item 2</a>
+           <Link to={'/menu'}>Menu</Link>
         </li>
         <li>
             <a>Item 3</a>
@@ -42,7 +43,7 @@ const Navbar = () => {
               {navOptions}
             </ul>
           </div>
-          <a className="btn btn-ghost text-xl">Island Food World</a>
+          <Link to={'/'}><a className="btn btn-ghost text-xl">Island Food World</a></Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1">
